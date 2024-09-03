@@ -1,4 +1,4 @@
-import { useMemo, useCallback, useRef } from "react";
+import { useMemo } from "react";
 import { Card } from "../components/ui/card";
 import { Skeleton } from "../components/ui/skeleton";
 import { useCombinedData } from "../hooks/useCombinedData";
@@ -29,7 +29,7 @@ const Home = () => {
                 ref={index === allResults.length - 1 ? lastElementRef : null}
             />
         ));
-        
+
     }, [isLoading, error, data, lastElementRef]);
 
     return (
