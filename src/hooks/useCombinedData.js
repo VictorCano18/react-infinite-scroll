@@ -41,7 +41,9 @@ export const useCombinedData = () => {
             getNextPageParam: (lastPage) => {
                 return lastPage.hasNextPage ? (lastPage.page + 1) : undefined;
             },
-            keepPreviousData: true
+            keepPreviousData: true,
+            refetchOnWindowFocus: false,
+            refetchOnReconnect: false
         }
     );
 };
