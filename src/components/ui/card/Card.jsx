@@ -10,7 +10,7 @@ const Card = forwardRef(({ user }, ref) => {
                 <img className="w-10 h-10 rounded-full" src={src} alt="Rounded avatar" />
                 <h1 className="font-bold">{`${first + ' ' + last}`}</h1>
             </div>
-            <p className="mt-3 font-normal text-gray-500 text-start">{description || 'a'}</p>
+            <p className="mt-3 font-normal text-gray-500 text-start">{description}</p>
         </div>
     )
 })
