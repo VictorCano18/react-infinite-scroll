@@ -1,3 +1,2 @@
-# Victor Cano - TEST
-
-This project was made with react and tailwindcss.
+# Inifnite scroll
+This project was made with react, tailwindcss and react query.
